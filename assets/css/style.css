@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&family=Raleway:wght@100;300;600&display=swap');
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.btn-info {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2A3342;
+    color: #F6F5FB;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    visibility: hidden;
+}
+
+.btn-contrato {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2A3342;
+    color: #F6F5FB;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.modal-funcionamento {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d9d9d9b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+}
+
+.card-modal {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.modal-btn-close {
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modal-title {
+    font-size: 44px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.modal-text {
+    font-size: 24px;
+    line-height: 45px;
+    margin-bottom: 80px;
+}

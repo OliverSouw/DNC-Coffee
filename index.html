@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>DNC Coffee</title>
 </head>
 <body style="background-color:#F6F5FB">
@@ -23,7 +25,7 @@
                   <li class="nav-item ps-3">
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
                   </li>
-                  <li class="nav-item ps-3">
+                  <li class="nav-item ps-3 btn-funcionamento">
                     <a class="nav-link" href="#">Funcionamento</a>
                   </li>
                 </ul>
@@ -44,11 +46,17 @@
             <div class="card-body">
               <p class="card-text ">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
             </div>
+            <div class="container-btn">
+                <button class="btn-info">Comprar Agora</button>
+            </div>
         </article>
         <article class="card m-3 border-1 rounded-2">
             <img src="./assets/images/image2.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!</p>
+            </div>
+            <div class="container-btn">
+                <button class="btn-info">Comprar Agora</button>
             </div>
         </article>
         <article class="card m-3 border-1 rounded-2">
@@ -56,11 +64,17 @@
             <div class="card-body">
               <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
             </div>
+            <div class="container-btn">
+                <button class="btn-info">Comprar Agora</button>
+            </div>
         </article>
         <article class="card m-3 border-1 rounded-2">
             <img src="./assets/images/image4.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
+            </div>
+            <div class="container-btn">
+                <button class="btn-info">Comprar Agora</button>
             </div>
         </article>
     </main>
@@ -80,6 +94,23 @@
             </div>
         </div>
     </div>
+
+    <div class="modal-funcionamento">
+        <div class="card-modal">
+            <div class="modal-btn-close">
+                <button type="button" class="close btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <h2 class="modal-title">Atendimento</h2>
+            <span class="modal-text">
+                Rua José de Alencar, 111, Centro <br>
+                CEP: 12209-000 | +55 (11) 3333-8000
+            </span>
+            <button class="btn-contrato">Entrar em contato</button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
     
+
 </body>
 </html>
